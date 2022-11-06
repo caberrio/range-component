@@ -1,0 +1,10 @@
+{
+  "include": ["./src/**/*", "./setupTests.ts"],
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "jsx": "react-jsx",
+    "lib": ["es2017", "dom"],
+    "types": ["node", "jest", "@testing-library/jest-dom"]
+  }
+}
